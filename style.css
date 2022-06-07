@@ -1,0 +1,81 @@
+.main{
+	height: auto;
+	min-height: 1000px;
+}
+.cajaprincipal{
+	height: auto;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+table, th, td{
+	text-align: center;
+	border-collapse: collapse;
+	padding: 10px;
+}
+th{
+	background: #e68600;
+	color: white;
+
+}
+.td1{
+	background: #ffd599;
+}
+.td2{
+	background: #ffbf66;
+}
+.tabla{
+	margin-left: 1.5%;
+	width: 90%;
+	box-shadow: 2.5px 2.5px 5px #888888;
+}
+.buscador{
+	width: 40%;
+	height: 30px;
+	margin-left: 30%;
+	margin-bottom: 30px;
+}
+.selectbuscar{
+	width: 20%;
+	height: 100%;
+	margin-right: -1%;
+	border: none;
+	outline: 1px solid black;
+}
+.buscar{
+	padding-left: 1%;
+	width: 69%;
+	height: 100%;
+	border: none;
+	outline: 1px solid black;
+}
+.ir{
+	margin-left: -1%;
+	width: 10%;
+	height: 100%;
+	border: none;
+	outline: 1px solid black;
+}
+.ir:hover{
+	background: #d6d6d6;
+	cursor: pointer;
+}
+.cerrar-reporte{
+	background: #e68600;
+	border: 0;
+	cursor: pointer;
+	padding: 5px 10px;
+	outline: 1px solid black;
+}
+.cerrar-reporte:hover{
+	color: white;
+}
+.check-abiertos{
+	float: right;
+	font-size: 14px;
+	margin-right: 18px;
+	color: gray;
+	height: 20px;
+}
+.check-abiertos-check{
+	vertical-align: middle;
+}
